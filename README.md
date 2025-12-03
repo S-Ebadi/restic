@@ -45,7 +45,7 @@ Restic skapade snapshot utan problem.
 
 ## Noteringar
 
-* Jag stjärnade restic-repo:t som inspirationskälla.
+* Jag stjärnade restic repot som inspo. "https://github.com/restic/restic.git"
 * Jag använde **man pages** när jag fastnade.
 * Vid oklara lägen tog jag hjälp av **AI** för att reda ut detaljer.
 * Uppfatta uppgiften som att det räckte med snap av en boot och inget schema?

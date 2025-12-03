@@ -11,7 +11,7 @@ Backup körs från Ubuntu → Fedora med Restic och triggas automatiskt 5 minute
 /etc/systemd/system/backup.timer
 ```
 
-## Arbetsgång (kort)
+## Metod
 
 1. Fedora: Skapade backup-mappen och initierade Restic-repo.
 2. Ubuntu: Installerade Restic, lade lösenord i `/etc/restic_pass` och skrev backup-scriptet.
@@ -38,7 +38,7 @@ Dirs:          0 new, 0 changed, 225 unmodified
 Added to the repository: 0 B (0 B stored)
 
 processed 287 files, 551.814 KiB in 0:00
-snapshot 8d20f677 saved
+snapshot 8d20f677 saved # detta betyder guld
 ```
 
 Restic skapade snapshot utan problem.
